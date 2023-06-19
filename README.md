@@ -1,3 +1,3 @@
-"# MSc-Dissertation-Progress-Report" 
+# MSc-Dissertation-Progress-Report
 
-[embed]main.pdf[/embed]
+See main.pdf for the report.
