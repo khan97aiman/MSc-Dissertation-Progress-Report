@@ -1,0 +1,107 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+
+%\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+
+\usepackage{amsfonts,graphicx,amsmath,amssymb,tikz}
+\usepackage{parskip}
+
+\usepackage{amsfonts}
+\usepackage{multirow}
+\usepackage{listings}
+\usepackage[left=2cm, right=2cm, top=2cm]{geometry}
+\usepackage{float}
+\usepackage[sorting=none]{biblatex}
+\usepackage{afterpage}
+\usepackage{multirow}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{enumitem}
+
+
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+ 
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstset{style=mystyle}
+
+
+\usepackage{hyperref}
+\hypersetup{ colorlinks, citecolor=blue, filecolor=black, linkcolor=blue, urlcolor=blue } 
+\newcommand{\vecthree}[3]{\begin{pmatrix} #1 \\ #2 \\ #3 \end{pmatrix}}
+\newcommand{\vecfour}[4]{\begin{pmatrix} #1 \\ #2 \\ #3 \\ #4\end{pmatrix}}
+\newcommand{\mat}[1]{\boldsymbol { \mathsf{#1}} }
+
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\newcommand{\norm}[1]{\lVert#1\rVert}
+\newcommand{\R}{\mathbb{R}}
+
+\definecolor{mycolor}{rgb}{0,0.6,0.5}
+
+
+% Separate file for references
+\addbibresource{references.bib}
+
+\begin{document}
+
+\title{Ray Tracing using Vulkan}
+
+\author{\IEEEauthorblockN{Aiman Khan}
+\IEEEauthorblockA{June 2023 \\
+\textit{MSc Computer Game Engineering} \\
+\textit{Computer Sciences, Newcastle University}\\
+United Kingdom \\
+c2055955@newcastle.ac.uk}
+}
+
+\maketitle
+
+\begin{abstract}
+
+\end{abstract}
+
+\begin{IEEEkeywords}
+
+\end{IEEEkeywords}
+
+\section{Introduction} \label{introduction}
+
+\section{Related Work} \label{related-work}
+
+\section{Project Approach and Plan} \label{project-approach}
+%\subsection{} \label{pose-estimation}
+\section{Evaluation / Conclusion}
+
+
+\printbibliography[heading=bibintoc,title={References}]
+\end{document}
